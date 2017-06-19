@@ -1,0 +1,15 @@
+<h3>
+  Welcome prospect. In order to proceed you must display a test of knowledge in regards to the future Groom, JustNeph.
+</h3>
+<div id="welcome_form">
+
+  <%= form_tag("/user_check", method: "post", class: "form-horizontal") do %>
+    <h4>
+      To get in you must first enter your WFA Wrestling Name
+    </h4>
+    <div class="col-lg-5 row">
+      <%= text_field_tag(:wfa_name, nil, placeholder: "WFA Wrestling Name", class: "form-control") %>
+    </div>
+    <%= submit_tag("Submit", class: "btn btn-default", id: "submit") %>
+  <% end %>
+</div>
