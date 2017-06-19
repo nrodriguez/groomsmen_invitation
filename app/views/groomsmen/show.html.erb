@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @groomsman.name %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @groomsman.password %>
+</p>
+
+<%= link_to 'Edit', edit_groomsman_path(@groomsman) %> |
+<%= link_to 'Back', groomsmen_path %>

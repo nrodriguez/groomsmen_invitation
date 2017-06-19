@@ -1,0 +1,27 @@
+<%= form_with(model: groomsman, local: true) do |form| %>
+  <% if groomsman.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(groomsman.errors.count, "error") %> prohibited this groomsman from being saved:</h2>
+
+      <ul>
+      <% groomsman.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :groomsman_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.text_field :password, id: :groomsman_password %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

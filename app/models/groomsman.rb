@@ -1,0 +1,2 @@
+class Groomsman < ApplicationRecord
+end
