@@ -23,7 +23,6 @@ groomsmen = {
 
 josh = Groomsman.find_by_name("josh")
 QuestionAnswer.create(
-QuestionAnswer.create(
   question: "What was Impact's finishing move in BSW? (HINT: It was ICE COLD)",
   answer: "Impact Icer",
   groomsman: josh
@@ -32,18 +31,18 @@ QuestionAnswer.create(
 josh_questions = [
   QuestionAnswer.create(
     question: "Your first main in Super Smash Bros?",
-    answer2: "Captain Falcon"
+    answer: "Captain Falcon"
   ),
   QuestionAnswer.create(
     question: "Who was the famous ref of Enforcer vs Impact (The Backyard Wars)",
-    answer3: "Gabriel",
+    answer: "Gabriel",
   )
   QuestionAnswer.create(
     question: "Whose house did we play Karaoke Revolution at after High School?",
-    answer4: "Gabe",
+    answer: "Gabe",
   )
   QuestionAnswer.create(
-    question: "", answer5: ""}
+    question: "", answer: ""}
 ]
 
 ahmed_questions = [
@@ -52,16 +51,16 @@ ahmed_questions = [
   ),
   QuestionAnswer.create(
     question
-     "", answer2: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer3: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer4: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer5: ""}
+     "", answer: ""}
 ]
 
 eric_questions = [
@@ -69,16 +68,16 @@ eric_questions = [
     question: "", answer1: ""},
   QuestionAnswer.create(
     question
-     "", answer2: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer3: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer4: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer5: ""}
+     "", answer: ""}
 ]
 
 jesse_questions = [
@@ -86,16 +85,16 @@ jesse_questions = [
     question: "", answer1: ""},
   QuestionAnswer.create(
     question
-     "", answer2: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer3: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer4: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer5: ""}
+     "", answer: ""}
 ]
 
 jason_questions = [
@@ -103,16 +102,16 @@ jason_questions = [
     question: "", answer1: ""},
   QuestionAnswer.create(
     question
-     "", answer2: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer3: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer4: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer5: ""}
+     "", answer: ""}
 ]
 
 juan_questions = [
@@ -120,16 +119,16 @@ juan_questions = [
     question: "", answer1: ""},
   QuestionAnswer.create(
     question
-     "", answer2: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer3: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer4: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer5: ""}
+     "", answer: ""}
 ]
 
 lewis_questions = [
@@ -137,16 +136,16 @@ lewis_questions = [
     question: "", answer1: ""},
   QuestionAnswer.create(
     question
-     "", answer2: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer3: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer4: ""},
+     "", answer: ""},
   QuestionAnswer.create(
     question
-     "", answer5: ""}
+     "", answer: ""}
 ]
 
 # require "
