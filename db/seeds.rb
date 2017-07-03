@@ -94,7 +94,7 @@ QuestionAnswer.create(
   groomsman: jesse
 )
 QuestionAnswer.create(
-  question: 'In our very first feud, I gave you a lump on the head with this move on a chair. What was it?',
+  question: 'In our very first feud, I gave you a lump on the head with this move on a chair. What was it? (Two Words)',
   answer: 'Tombstone Piledriver',
   groomsman: jesse
 )
@@ -135,8 +135,8 @@ QuestionAnswer.create(
 # Jason
 jason = Groomsman.find_by_name('jason')
 QuestionAnswer.create(
-  question: 'In WMX8, we had The Rock Stars',
-  answer: "Nine",
+  question: 'In WMX8, we had The Rock Stars, the grandmas and the...',
+  answer: "Chickens",
   groomsman: jason
 )
 QuestionAnswer.create(
@@ -201,17 +201,17 @@ QuestionAnswer.create(
   groomsman: juan
 )
 QuestionAnswer.create(
-  question: '',
-  answer: 'Gabriel',
+  question: 'One night at a party in jesse house, we bought beer from the self checkout using this which made our receipt super long',
+  answer: 'coins',
   groomsman: juan
 )
 QuestionAnswer.create(
-  question: 'Alex got into a fight with him at my birthday party in the apartment. What was his karaoke name?',
-  answer: 'Mama Joe',
+  question: 'I had this metallic looking hoodie. One night while drunk I used it to pretend I was a...',
+  answer: 'transformer',
   groomsman: juan
 )
 QuestionAnswer.create(
-  question: 'The store we would drive to that we always heard the same songs on the way there. "Do you believe in life after love"',
+  question: 'w',
   answer: 'Costco',
   groomsman: juan
 )
